@@ -108,77 +108,77 @@ export const SKILLS = [
   {
     icon: <FaHtml5 className="text-4xl text-orange-600 lg:text-5xl" />,
     name: "HTML5",
-    experience: "2+ years",
+    experience: "2+ years of experience",
   },
   {
     icon: <FaCss3Alt className="text-4xl text-blue-500 lg:text-5xl" />,
     name: "CSS3",
-    experience: "2+ years",
+    experience: "2+ years of experience",
   },
   {
     icon: <FaBootstrap className="text-4xl text-purple-600 lg:text-5xl" />,
     name: "Bootstrap",
-    experience: "1.5+ years",
+    experience: "1.5+ years of experience",
   },
   {
     icon: <RiTailwindCssLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "Tailwind CSS",
-    experience: "1.5+ year",
+    experience: "1.5+ years of experience",
   },
   {
     icon: <IoLogoJavascript className="text-4xl text-yellow-400 lg:text-5xl" />,
     name: "JavaScript",
-    experience: "1.5+ years",
+    experience: "2+ years of experience",
   },
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "1+ years",
+    experience: "1+ years of experience",
   },
   {
     icon: <FaJava className="text-4xl text-red-500 lg:text-5xl" />,
     name: "Java",
-    experience: "2+ years",
+    experience: "2+ years of experience",
   },
   {
     icon: <SiSpringboot className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Spring Boot",
-    experience: "1.5+ years",
+    experience: "1.5+ years of experience",
   },
   {
     icon: <SiSpringsecurity className="text-4xl text-green-500 lg:text-5xl" />,
     name: "Spring Security",
-    experience: "1+ years",
+    experience: "1+ years of experience",
   },
   {
     icon: <SiHibernate className="text-4xl text-purple-700 lg:text-5xl" />,
     name: "Hibernate (ORM)",
-    experience: "1.5+ years",
+    experience: "1.5+ years of experience",
   },
   {
     icon: <SiApachekafka className="text-4xl text-black lg:text-5xl" />,
     name: "Apache Kafka",
-    experience: "1+ year",
+    experience: "1+ year of experience",
   },
   {
     icon: <SiMysql className="text-4xl text-blue-700 lg:text-5xl" />,
     name: "MySQL",
-    experience: "2+ years",
+    experience: "2+ years of experience",
   },
   {
     icon: <FcLinux className="text-4xl lg:text-5xl" />,
     name: "Linux",
-    experience: "1.5+ years",
+    experience: "1.5+ years of experience",
   },
   {
     icon: <SiApachetomcat className="text-4xl text-orange-500 lg:text-5xl" />,
     name: "Apache Tomcat",
-    experience: "1.5+ year",
+    experience: "1.5+ years of experience",
   },
   {
     icon: <FaGithub className="text-4xl text-black lg:text-5xl" />,
     name: "GitHub",
-    experience: "1.5+ years",
+    experience: "1.5+ years of experience",
   },
 ];
 
