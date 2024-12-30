@@ -108,52 +108,52 @@ export const SKILLS = [
   {
     icon: <FaHtml5 className="text-4xl text-orange-600 lg:text-5xl" />,
     name: "HTML5",
-    experience: "3+ years",
+    experience: "2+ years",
   },
   {
     icon: <FaCss3Alt className="text-4xl text-blue-500 lg:text-5xl" />,
     name: "CSS3",
-    experience: "3+ years",
+    experience: "2+ years",
   },
   {
     icon: <FaBootstrap className="text-4xl text-purple-600 lg:text-5xl" />,
     name: "Bootstrap",
-    experience: "2+ years",
+    experience: "1.5+ years",
   },
   {
     icon: <RiTailwindCssLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "Tailwind CSS",
-    experience: "1+ year",
+    experience: "1.5+ year",
   },
   {
     icon: <IoLogoJavascript className="text-4xl text-yellow-400 lg:text-5xl" />,
     name: "JavaScript",
-    experience: "2+ years",
+    experience: "1.5+ years",
   },
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "2+ years",
+    experience: "1+ years",
   },
   {
     icon: <FaJava className="text-4xl text-red-500 lg:text-5xl" />,
     name: "Java",
-    experience: "3+ years",
+    experience: "2+ years",
   },
   {
     icon: <SiSpringboot className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Spring Boot",
-    experience: "2+ years",
+    experience: "1.5+ years",
   },
   {
     icon: <SiSpringsecurity className="text-4xl text-green-500 lg:text-5xl" />,
     name: "Spring Security",
-    experience: "1.5+ years",
+    experience: "1+ years",
   },
   {
     icon: <SiHibernate className="text-4xl text-purple-700 lg:text-5xl" />,
     name: "Hibernate (ORM)",
-    experience: "2+ years",
+    experience: "1.5+ years",
   },
   {
     icon: <SiApachekafka className="text-4xl text-black lg:text-5xl" />,
@@ -168,17 +168,17 @@ export const SKILLS = [
   {
     icon: <FcLinux className="text-4xl lg:text-5xl" />,
     name: "Linux",
-    experience: "3+ years",
+    experience: "1.5+ years",
   },
   {
     icon: <SiApachetomcat className="text-4xl text-orange-500 lg:text-5xl" />,
     name: "Apache Tomcat",
-    experience: "1+ year",
+    experience: "1.5+ year",
   },
   {
     icon: <FaGithub className="text-4xl text-black lg:text-5xl" />,
     name: "GitHub",
-    experience: "3+ years",
+    experience: "1.5+ years",
   },
 ];
 
