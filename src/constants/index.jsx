@@ -21,6 +21,10 @@ import { FaBootstrap } from "react-icons/fa6";
 import { RiTailwindCssLine } from "react-icons/ri";
 import { SiHibernate } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
+import { FaCogs } from "react-icons/fa"; // Import the FaCogs icon
+// import { FaApache } from "react-icons/fa"; // For Apache HTTPD
+import { FaCog } from "react-icons/fa"; // For Feign (generic server-related icon)
+import { FaCode } from "react-icons/fa"; // For DSA (generic code icon)
 
 import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
@@ -50,7 +54,7 @@ export const PROJECTS = [
     id: 1,
     name: "Personal Portfolio",
     description:
-      "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
+      "A responsive portfolio website created with React and Tailwind CSS to showcase my professional skills, completed projects, and contact information in an elegant and user-friendly design.",
     image: projectImage1,
     githubLink: "https://github.com/Chandumanga/my-portfolio-website",
   },
@@ -58,15 +62,15 @@ export const PROJECTS = [
     id: 2,
     name: "Food Ordering Application",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "An online food ordering system developed using Spring Boot, featuring a user-friendly interface for browsing menus, adding items to the cart, and completing secure payments via Stripe integration.",
     image: projectImage2,
     githubLink: "https://github.com/Chandumanga/food-ordering-app-fe",
   },
   {
     id: 3,
-    name: "Trecking Application",
+    name: "Trekking Application",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "A trekking planner application that helps users explore HTML, CSS, JS, organize trips, and manage gear checklists.",
     image: projectImage3,
     githubLink: "https://github.com/Chandumanga/Trecking-Application",
   },
@@ -74,7 +78,7 @@ export const PROJECTS = [
     id: 4,
     name: "Weather App",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "A weather forecasting app that provides current weather conditions and 5-day forecasts for any location using the OpenWeatherMap API. Built with React and styled-components for a sleek design.",
     image: projectImage4,
     githubLink: "https://github.com/Chandumanga/weather-app",
   },
@@ -82,7 +86,7 @@ export const PROJECTS = [
     id: 5,
     name: "Animated Websites",
     description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
+      "A collection of modern animated website designs created using HTML, CSS, JS and GSAP animations, and interactive UI elements. These websites highlight innovative design principles and smooth transitions.",
     image: projectImage5,
     githubLink: "https://github.com/Chandumanga/Modern-Web-Development",
   },
@@ -90,11 +94,12 @@ export const PROJECTS = [
     id: 6,
     name: "Shell Scripting Project",
     description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+      "A series of shell scripting projects demonstrating automation of system tasks, including file management, backups, and system monitoring, using bash scripting techniques.",
     image: projectImage6,
     githubLink: "https://github.com/Chandumanga/Shell_Script_Projects",
   },
 ];
+
 
 export const BIO = [
   "A dynamic and versatile software developer with a robust background in computer science and an unwavering passion for crafting innovative software solutions. Graduated from Assam Central University in 2023 with a Bachelor of Technology degree in Electronics and Communication Engineering, achieving a CGPA of 7.82. During the academic journey, a strong interest in programming and software development was cultivated, laying the foundation for future endeavors.",
@@ -156,6 +161,11 @@ export const SKILLS = [
     experience: "1.5+ years of experience",
   },
   {
+    icon: <FaCogs className="text-4xl text-gray-600 lg:text-5xl" />, // Placeholder for Microservices
+    name: "Microservices",
+    experience: "1+ years of experience",
+  },
+  {
     icon: <SiApachekafka className="text-4xl text-black lg:text-5xl" />,
     name: "Apache Kafka",
     experience: "1+ year of experience",
@@ -174,6 +184,21 @@ export const SKILLS = [
     icon: <SiApachetomcat className="text-4xl text-orange-500 lg:text-5xl" />,
     name: "Apache Tomcat",
     experience: "1.5+ years of experience",
+  },
+  // {
+  //   icon: <FaApache className="text-4xl text-red-600 lg:text-5xl" />, // Apache HTTPD
+  //   name: "Apache HTTPD",
+  //   experience: "1+ years of experience",
+  // },
+  {
+    icon: <FaCog className="text-4xl text-gray-600 lg:text-5xl" />, // Feign
+    name: "Feign",
+    experience: "1+ years of experience",
+  },
+  {
+    icon: <FaCode className="text-4xl text-green-600 lg:text-5xl" />, // DSA (Data Structures & Algorithms)
+    name: "DSA (Data Structures & Algorithms)",
+    experience: "1+ years of experience",
   },
   {
     icon: <FaGithub className="text-4xl text-black lg:text-5xl" />,
